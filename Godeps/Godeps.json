@@ -1,6 +1,112 @@
 {
-	"ImportPath": ".",
+	"ImportPath": "github.com/rootsongjc/docker-ipam-plugin",
 	"GoVersion": "go1.7",
-	"GodepVersion": "v75",
-	"Deps": []
+	"GodepVersion": "v80",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/Microsoft/go-winio",
+			"Comment": "v0.4.11-31-g75bf6ca",
+			"Rev": "75bf6ca3d7cb77506c52495e61472c131a254d56"
+		},
+		{
+			"ImportPath": "github.com/Sirupsen/logrus",
+			"Comment": "v1.3.0-13-gcdb2f38",
+			"Rev": "cdb2f3857cfba7388d28dfe38316b0a39e694215"
+		},
+		{
+			"ImportPath": "github.com/codegangsta/cli",
+			"Comment": "v1.20.0-85-g693af58",
+			"Rev": "693af58b4d51b8fcc7f9d89576da170765980581"
+		},
+		{
+			"ImportPath": "github.com/coreos/etcd/client",
+			"Comment": "v3.3.0-rc.0-2182-g24fc2a983",
+			"Rev": "24fc2a983ae39b4fe09cef3db434c812fdc97cff"
+		},
+		{
+			"ImportPath": "github.com/coreos/go-semver/semver",
+			"Comment": "v0.2.0-9-ge214231",
+			"Rev": "e214231b295a8ea9479f11b70b35d5acf3556d9b"
+		},
+		{
+			"ImportPath": "github.com/coreos/go-systemd/activation",
+			"Comment": "v18-4-g93d5ec2",
+			"Rev": "93d5ec2c7f76e57b4f3cb9fa4ee4e3ea43f3e5c9"
+		},
+		{
+			"ImportPath": "github.com/docker/go-connections/sockets",
+			"Comment": "v0.4.0-1-g97c2040",
+			"Rev": "97c2040d34dfae1d1b1275fa3a78dbdd2f41cf7e"
+		},
+		{
+			"ImportPath": "github.com/docker/go-plugins-helpers/ipam",
+			"Rev": "1e6269c305b8c75cfda1c8aa91349c38d7335814"
+		},
+		{
+			"ImportPath": "github.com/docker/go-plugins-helpers/sdk",
+			"Rev": "1e6269c305b8c75cfda1c8aa91349c38d7335814"
+		},
+		{
+			"ImportPath": "github.com/docker/libnetwork/netlabel",
+			"Comment": "v0.8.0-dev.2-1330-gd8d4c8cf",
+			"Rev": "d8d4c8cf03d7d036a76d5470553cd8753e522a99"
+		},
+		{
+			"ImportPath": "github.com/konsorten/go-windows-terminal-sequences",
+			"Comment": "v1.0.1",
+			"Rev": "5c8c8bd35d3832f5d134ae1e1e375b69a4d25242"
+		},
+		{
+			"ImportPath": "github.com/ugorji/go/codec",
+			"Comment": "v1.1.2-2-ge444a50",
+			"Rev": "e444a5086c436778cf9281a7059a3d58b9e17935"
+		},
+		{
+			"ImportPath": "go.etcd.io/etcd/pkg/pathutil",
+			"Comment": "v3.3.0-rc.0-2182-g24fc2a983",
+			"Rev": "24fc2a983ae39b4fe09cef3db434c812fdc97cff"
+		},
+		{
+			"ImportPath": "go.etcd.io/etcd/pkg/srv",
+			"Comment": "v3.3.0-rc.0-2182-g24fc2a983",
+			"Rev": "24fc2a983ae39b4fe09cef3db434c812fdc97cff"
+		},
+		{
+			"ImportPath": "go.etcd.io/etcd/pkg/types",
+			"Comment": "v3.3.0-rc.0-2182-g24fc2a983",
+			"Rev": "24fc2a983ae39b4fe09cef3db434c812fdc97cff"
+		},
+		{
+			"ImportPath": "go.etcd.io/etcd/version",
+			"Comment": "v3.3.0-rc.0-2182-g24fc2a983",
+			"Rev": "24fc2a983ae39b4fe09cef3db434c812fdc97cff"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/ssh/terminal",
+			"Rev": "74369b46fc6756741c016591724fd1cb8e26845f"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "65e2d4e15006aab9813ff8769e768bbf4bb667a0"
+		},
+		{
+			"ImportPath": "golang.org/x/net/internal/socks",
+			"Rev": "65e2d4e15006aab9813ff8769e768bbf4bb667a0"
+		},
+		{
+			"ImportPath": "golang.org/x/net/proxy",
+			"Rev": "65e2d4e15006aab9813ff8769e768bbf4bb667a0"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "3b5209105503162ded1863c307ac66fec31120dd"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/windows",
+			"Rev": "3b5209105503162ded1863c307ac66fec31120dd"
+		}
+	]
 }
