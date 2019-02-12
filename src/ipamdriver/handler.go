@@ -6,7 +6,7 @@ import (
 	log "github.com/Sirupsen/logrus"
 	"github.com/docker/go-plugins-helpers/ipam"
 	netlabel "github.com/docker/libnetwork/netlabel"
-	"util"
+	"github.com/rootsongjc/docker-ipam-plugin/src/util"
 )
 
 type MyIPAMHandler struct {

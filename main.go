@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/codegangsta/cli"
-	"command"
+	"github.com/rootsongjc/docker-ipam-plugin/src/command"
 	"os"
 )
 

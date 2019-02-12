@@ -5,10 +5,10 @@ import (
 	"os"
 	log "github.com/Sirupsen/logrus"
 	"github.com/codegangsta/cli"
-	"bridge"
-	"db"
-	"ipamdriver"
-	"util"
+	"github.com/rootsongjc/docker-ipam-plugin/src/bridge"
+	"github.com/rootsongjc/docker-ipam-plugin/src/db"
+	"github.com/rootsongjc/docker-ipam-plugin/src/ipamdriver"
+	"github.com/rootsongjc/docker-ipam-plugin/src/util"
 )
 
 var (

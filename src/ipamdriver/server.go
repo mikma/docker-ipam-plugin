@@ -8,8 +8,8 @@ import (
 	"strings"
 	log "github.com/Sirupsen/logrus"
 	"github.com/docker/go-plugins-helpers/ipam"
-	"db"
-	"util"
+	"github.com/rootsongjc/docker-ipam-plugin/src/db"
+	"github.com/rootsongjc/docker-ipam-plugin/src/util"
 )
 
 const (
