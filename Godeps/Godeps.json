@@ -1,6 +1,6 @@
 {
 	"ImportPath": "github.com/rootsongjc/docker-ipam-plugin",
-	"GoVersion": "go1.7",
+	"GoVersion": "go1.11",
 	"GodepVersion": "v80",
 	"Packages": [
 		"./..."
