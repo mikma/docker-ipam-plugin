@@ -24,7 +24,7 @@ type Config struct {
 func StartServer() {
 	d := &MyIPAMHandler{}
 	h := ipam.NewHandler(d)
-	h.ServeUnix("root", "talkingdata")
+	h.ServeUnix("talkingdata", 0)
 }
 
 func AllocateIPRange(ip_start, ip_end string) []string {
