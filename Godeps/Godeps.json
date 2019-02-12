@@ -61,8 +61,8 @@
 		},
 		{
 			"ImportPath": "github.com/ugorji/go/codec",
-			"Comment": "v1.1.2-2-ge444a50",
-			"Rev": "e444a5086c436778cf9281a7059a3d58b9e17935"
+			"Comment": "v1.1.1",
+			"Rev": "b4c50a2b199d93b13dc15e78929cfb23bfdf21ab"
 		},
 		{
 			"ImportPath": "go.etcd.io/etcd/pkg/pathutil",
